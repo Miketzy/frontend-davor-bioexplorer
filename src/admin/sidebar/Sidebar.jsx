@@ -2,7 +2,7 @@ import React from "react";
 
 function Sidebar() {
   return (
-    <div className="w-80 bg-gray-800 fixed h-full">
+    <div className="w-64 bg-gray-800 fixed h-full">
       <div>
         <h1 className="text-2x text-white font-bold"> Admin</h1>
       </div>
