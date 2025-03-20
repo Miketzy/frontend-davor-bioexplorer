@@ -10,6 +10,15 @@ import { useState } from "react";
 
 function Sidebar() {
   const [activeIndex, setActiveIndex] = useState(0);
+  const menuItems = [
+    { name: "Species Directory", icon: <DashboardIcon /> },
+    { name: "Add Species", icon: <AddCircleOutlineIcon /> },
+    { name: "List of Species", icon: <AddBoxIcon /> },
+    { name: "Analytics", icon: <AnalyticsIcon /> },
+    { name: "Create Question", icon: <QuizIcon /> },
+    { name: "Gallery", icon: <CollectionsIcon /> },
+    { name: "Contributor Requests", icon: <PeopleIcon /> },
+  ];
   return (
     <div className="w-64 bg-gray-800 fixed h-full px-4 py-2">
       <div className="my-2 mb-4 flex items-center">
