@@ -13,7 +13,7 @@ function Sidebar() {
       <div className="my-2 mb-4">
         <h1 className="text-2x text-white font-bold">Admin</h1>
       </div>
-      <hr />
+      <hr className="border-t-2 border-white" />
       <ul className="mt-3 text-white font-bold">
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
