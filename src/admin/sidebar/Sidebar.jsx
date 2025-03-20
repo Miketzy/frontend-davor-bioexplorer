@@ -9,11 +9,7 @@ function Sidebar() {
       </div>
       <hr />
       <ul className="mt-3 text-white font-bold">
-        <li
-          className={`mb-2 rounded hover:shadow  py-2 cursor-pointer ${
-            isActive ? "bg-blue-500" : "hover:bg-blue-500"
-          }`}
-        >
+        <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
             <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Species Directory
