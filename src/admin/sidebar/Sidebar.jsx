@@ -1,5 +1,10 @@
 import React from "react";
 import DashboardIcon from "@mui/icons-material/Dashboard";
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
+import AnalyticsIcon from "@mui/icons-material/Analytics";
+import QuizIcon from "@mui/icons-material/Quiz";
+import CollectionsIcon from "@mui/icons-material/Collections";
+import PeopleIcon from "@mui/icons-material/People";
 
 function Sidebar() {
   return (
@@ -17,31 +22,31 @@ function Sidebar() {
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
-            <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            <AddCircleOutlineIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Add Species
           </span>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
-            <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            <AnalyticsIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Analytics
           </span>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
-            <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            <QuizIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Create Question
           </span>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
-            <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            <CollectionsIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Gallery
           </span>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
           <span className="px-3">
-            <DashboardIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            <PeopleIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Contributor Requests
           </span>
         </li>
