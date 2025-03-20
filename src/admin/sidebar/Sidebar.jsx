@@ -5,6 +5,7 @@ import AnalyticsIcon from "@mui/icons-material/Analytics";
 import QuizIcon from "@mui/icons-material/Quiz";
 import CollectionsIcon from "@mui/icons-material/Collections";
 import PeopleIcon from "@mui/icons-material/People";
+import AddBoxIcon from "@mui/icons-material/AddBox";
 
 function Sidebar() {
   return (
@@ -24,6 +25,12 @@ function Sidebar() {
           <span className="px-3">
             <AddCircleOutlineIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
             Add Species
+          </span>
+        </li>
+        <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
+          <span className="px-3">
+            <AddBoxIcon className="inline-block w-6 h-6 mr-2 -mt-1" />
+            List of Species
           </span>
         </li>
         <li className="mb-2 rounded hover:shadow hover:bg-blue-500 py-2 cursor-pointer">
