@@ -43,7 +43,7 @@ function Sidebar() {
               }`}
             onClick={() => setActiveIndex(index)}
           >
-            <span className="w-6 h-6 mr-2">{item.icon}</span>
+            <span className="w-6 h-6 mr-2 -mt-1">{item.icon}</span>
             {item.label}
           </li>
         ))}
