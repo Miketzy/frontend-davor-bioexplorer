@@ -1,20 +1,11 @@
-import Navbar from "./admin/navbar/Navbar";
-import Sidebar from "./admin/sidebar/Sidebar";
 import "./App.css";
+import Dashboard from "./home/admin-home/species-directory/Dashboard";
 
 function App() {
   return (
-    <>
-      <div className="flex">
-        <Sidebar />
-        <div>
-          <Navbar />
-          <div>
-            <h1>Admin Dashboard</h1>
-          </div>
-        </div>
-      </div>
-    </>
+    <div>
+      <Dashboard />
+    </div>
   );
 }
 
