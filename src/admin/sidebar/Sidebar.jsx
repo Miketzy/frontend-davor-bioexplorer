@@ -9,7 +9,7 @@ import AddBoxIcon from "@mui/icons-material/AddBox";
 
 function Sidebar() {
   return (
-    <div className="w-64 bg-gray-800 fixed h-full">
+    <div className="w-64 bg-gray-800 fixed h-full px-4 py-2">
       <div className="my-2 mb-4">
         <h1 className="text-2x text-white font-bold">Admin</h1>
       </div>
