@@ -10,7 +10,8 @@ import AddBoxIcon from "@mui/icons-material/AddBox";
 function Sidebar() {
   return (
     <div className="w-64 bg-gray-800 fixed h-full px-4 py-2">
-      <div className="my-2 mb-4">
+      <div className="my-2 mb-4 flex items-center">
+        <img src="/logo.png" alt="Dashboard" className="w-8 h-8 mr-2" />
         <h1 className="text-2x text-white font-bold">Admin Dashboard</h1>
       </div>
       <hr className="border-t-2 border-white" />
