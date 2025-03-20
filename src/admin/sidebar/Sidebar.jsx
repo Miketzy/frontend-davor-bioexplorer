@@ -34,14 +34,14 @@ function Sidebar() {
         {menuItems.map((item, index) => (
           <li
             key={index}
-            className={`mb-2 rounded py-2 px-3 flex items-center cursor-pointer transition-all ${
+            className={`mb-2 rounded py-2 px-3  cursor-pointer transition-all ${
               activeIndex === index
                 ? "bg-blue-700 shadow-lg"
                 : "hover:bg-blue-500 hover:shadow"
             }`}
             onClick={() => setActiveIndex(index)}
           >
-            <span className="inline-block w-6 h-6 mr-2">{item.icon}</span>
+            <span className="inline-block w-6 h-6 mr-2 -mt-2">{item.icon}</span>
             {item.name}
           </li>
         ))}
